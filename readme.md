@@ -27,3 +27,4 @@ jupyter nbconvert --to notebook --inplace --execute make_dataset.ipynb
 jupyter nbconvert --to notebook --inplace --execute train.ipynb
 ```
 
+You can download the weight of the pre-trained voice classification model from this [link](https://drive.google.com/file/d/1N5_n8Q_3T1c1ChL3bTKbTD1atiwcGtsF/view?usp=drive_link)
