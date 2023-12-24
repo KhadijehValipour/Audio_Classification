@@ -29,11 +29,11 @@ def send_welcome(message):
 
 #  Need to download a audiofile from telegram bot and save in project folder.
 #  Get the audio file from the message
-@bot.message_handler(content_types=['audio'])
+@bot.message_handler(content_types=['voice'])
 
-def handle_audio(message):
+def handle_voice(message):
     # Get the file ID of the voice message
-    file_id = message.audio.file_id
+    file_id = message.voice.file_id
     
     # Download the voice message file from Telegram servers
     file_info =bot.get_file(file_id)
@@ -73,6 +73,6 @@ def handle_audio(message):
     os.remove(file_name)
     os.remove(wav_file_name)
 
-    
+
 # Start the bot
 bot.polling()
