@@ -1,7 +1,7 @@
 # Audio Classification
 ![Alt text](assents/dataset-cover.png)
 
-Our goal is audio classification on the sound in Farsi language. This can be done on any desired language just by changing the dataset.
+Our goal is audio classification on the sound.
 
 ## How to install
 ```
